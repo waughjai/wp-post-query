@@ -1,0 +1,24 @@
+{
+    "name": "waughj/wp-post-query",
+    "description": "Class for simplifying looping through WP post queries.",
+    "keywords": [ "wordpress", "query" ],
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\WPPostQuery\\": "src/"
+        }
+    }
+}
